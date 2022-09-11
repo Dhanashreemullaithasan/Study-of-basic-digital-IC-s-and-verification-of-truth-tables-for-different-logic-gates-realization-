@@ -65,15 +65,25 @@ RegisterNumber:  212221230018
 */
 
 module EX1(a,b,x1,x2,x3,x4,x5,x6,x7);
+
 input a,b;
+
 output x1,x2,x3,x4,x5,x6,x7;
+
 and (x1,a,b);
+
 or (x2,a,b);
+
 not (x3,a);
+
 xor (x4,a,b);
+
 nand (x5,a,b);
+
 nor (x6,a,b);
+
 xnor (x7,a,b);
+
 endmodule
 
 # Logic symbol & Truthtable:
